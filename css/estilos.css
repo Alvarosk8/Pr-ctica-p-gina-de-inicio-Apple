@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+}
+
+a,
+img {
+    display: block;
+}
+
+p a {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p a {
+    display: inline-block;
+}
+
+li {
+    list-style-type: none;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+}
+
+a,
+img {
+    display: block;
+}
+
+p a {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p a {
+    display: inline-block;
+}
+
+li {
+    list-style-type: none;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+    font-synthesis: none;
+    -moz-font-feature-settings: 'kern';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+    width: 100%;
+    padding: 11px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+}
+
+header .botonMenu {
+    color: white;
+    width: 50px;
+    text-align: center;
+    float: left;
+    margin: 5% 0 0 0;
+    display: none;
+}
+
+header nav {
+    width: 100%;
+    max-width: 1090px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 2.5%;
+}
+
+header nav ul li a {
+    font-size: .9em;
+    text-align: center;
+    color: white;
+}
+
+header ul li h1 a {
+    font-size: .9em;
+    margin-top: -6px;
+    transform: scale(.9);
+    position: relative;
+    top: 2px;
+}
+
+section {
+    width: 100%;
+    background-color: #fafafa;
+    padding: 100px 0 500px;
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+
+section h2 {
+    font-size: 3em;
+    font-weight: 600;
+    line-height: 1.125;
+    letter-spacing: .004em;
+}
+
+section h3 {
+    font-size: 1.6em;
+    font-weight: normal;
+}
+
+section.cuadrado {
+    width: 48%;
+    margin: 1%;
+    float: left;
+}
+
+section.iphone13pro {
+    background-image: url("../img/iphone13pro.jpg");
+    background-repeat: no-repeat;
+    background-position: center 100%;
+    background-color: #fbfbfd;
+}
+
+section.iphone13 {
+    background-image: url("../img/iphone13.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: auto 100%;
+    background-color: #35283d;
+}
+
+section.iphone13 h2 {
+    color: rgb(255, 255, 255);
+}
+
+section.iphone13 h3 {
+    color: #fdc3ea;
+}
+
+section.watch {
+    background-image: url("../img/applewatch.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+}
+
+section.watch h2 {
+    color: rgb(0, 0, 0);
+}
+
+section.watch h3 {
+    color: rgb(0, 0, 0);
+}
+
+section.macbook {
+    background-image: url("../img/macbook.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section.macbook h2 {
+    color: rgb(0, 0, 0);
+}
+
+section.macbook h3 {
+    color: rgb(0, 0, 0);
+}
+
+section.fitness {
+    background-image: url("../img/anuncio.jpg");
+    background-repeat: no-repeat;
+    background-position: center 65%;
+    background-size: cover;
+}
+
+section.watch1 {
+    background-image: url("../img/promowatch.jpg");
+    background-repeat: no-repeat;
+    background-position: center 65%;
+}
+
+section.watch1 h2 {
+    color: rgb(255, 255, 255);
+}
+
+section.watch1 h3 {
+    color: rgb(255, 255, 255);
+}
+
+section.airpods1 {
+    background-image: url("../img/airpods1.jpg");
+    background-repeat: no-repeat;
+    background-position: center 65%;
+    background-color: #fbfbfd;
+}
+
+section.airpods h2 {
+    color: rgb(5, 5, 5);
+}
+
+section.airpods h3 {
+    color: rgb(5, 5, 5);
+}
+
+footer {
+    width: 100%;
+    padding: 50px 0;
+    background-color: #f2f2f2;
+    font-size: .75em;
+    line-height: 15px;
+}
+
+footer div.centrado {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer dl {
+    width: 16%;
+    margin: 20px 2%;
+    float: left;
+}
+
+footer dl dt {
+    font-weight: bold;
+    margin: 0 0 8px;
+}
+
+footer dl dd {
+    margin: 0 0 5px;
+}
+
+footer dl dd a {
+    color: #555;
+}
+
+footer dl dd a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+footer p {
+    width: 100%;
+    padding: 10px 0;
+    color: #888;
+}
+
+footer p.linea {
+    border-bottom: 1px solid lightgrey;
+}
+
+footer p a {
+    color: #0070c9;
+}
+
+footer ul li {
+    float: left;
+    padding: 0 10px 0 0;
+    margin: 0 10px 0 0;
+    border-right: 1px solid lightgrey;
+}
+
+footer ul li a {
+    color: #888;
+}
+
+footer ul li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+@media (max-width:900px) {
+    header .botonMenu {
+        display: block;
+        position: fixed;
+        top: 25px;
+        margin: 0;
+        font-size: 1.3em;
+    }
+    header nav {
+        /*display: none;*/
+        width: 80%;
+        height: 40px;
+        overflow: hidden;
+    }
+    header.abierto nav {
+        height: 400px;
+    }
+    header nav ul {
+        width: 100%;
+    }
+    header nav ul>:first-child {
+        border: 0px;
+    }
+    header nav ul li {
+        width: 90%;
+        padding: 10px 0;
+        border-bottom: 1px solid white;
+        float: none;
+        margin: 0 auto;
+    }
+    header nav ul li h1 a {
+        font-size: 1em;
+    }
+    section.cuadrado {
+        width: 98%;
+    }
+    section.iphoneX {
+        background-image: url("../img/iphonex_movil.jpg");
+        background-size: auto 60%;
+        background-position: center 80%;
+    }
+    section.iphone8 {
+        background-image: url("../img/iphone8_movil.jpg");
+        background-size: auto 60%;
+    }
+}
+
+@media (max-width:768px) {
+    footer dl {
+        width: 48%;
+        float: left;
+        margin: 1%;
+    }
+}
+
+
+/*
+@media (max-width:380px){
+	header{
+		display: none;
+	}
+}
+@media (min-width:380px) and (max-width:768px){
+	header{
+		background: lime;
+	}
+
+}
+@media (min-width:768px) and (max-width:1024px){
+	
+	header{
+		background: red;
+	}
+
+}*/
